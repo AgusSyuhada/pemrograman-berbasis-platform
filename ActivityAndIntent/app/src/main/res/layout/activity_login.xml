@@ -2,12 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4B0082"
+    android:background="#FFFFFF"
     tools:context=".ui.auth.LoginActivity">
 
     <LinearLayout
+        android:id="@+id/lyForm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -15,10 +17,11 @@
         android:padding="24dp">
 
         <TextView
+            android:id="@+id/tvLoginForm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login Form"
-            android:textColor="#FFFFFF"
+            android:text="@string/login_form"
+            android:textColor="#4B0082"
             android:textSize="24sp"
             android:textStyle="bold"
             android:gravity="center"
@@ -28,36 +31,36 @@
             android:id="@+id/etUsername"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="#6A1B9A"
-            android:hint="Username"
+            android:background="#F3E5F5"
+            android:hint="@string/username"
             android:inputType="text"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#CCCCCC"
+            android:textColor="#4B0082"
+            android:textColorHint="#9575CD"
             android:layout_marginBottom="16dp"/>
 
         <EditText
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="#6A1B9A"
-            android:hint="Password"
+            android:background="#F3E5F5"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#CCCCCC"
+            android:textColor="#4B0082"
+            android:textColorHint="#9575CD"
             android:layout_marginBottom="24dp"/>
 
         <Button
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="#D3D3D3"
-            android:text="LOGIN"
+            android:background="#7B1FA2"
+            android:text="@string/login"
             android:textColor="#FFFFFF"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
     </LinearLayout>
 
