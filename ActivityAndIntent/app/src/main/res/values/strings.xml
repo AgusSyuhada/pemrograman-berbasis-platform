@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ActivityAndIntent</string>
+    <string name="project_author">Agus Syuhada Creative Project</string>
+    <string name="image_splash_screen">image_splash_screen</string>
+</resources>
