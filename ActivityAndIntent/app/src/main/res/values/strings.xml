@@ -14,13 +14,19 @@
     <!--  Contact Us  -->
     <string name="contact_us">CONTACT US</string>
     <string name="location">Location</string>
-    <string name="address">Kampus Bina Widya KM 12.5, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau 28293</string>
+    <string name="address">Kota Pekanbaru, Provinsi Riau</string>
     <string name="website">Website</string>
-    <string name="website_link">https://agussyuhada.my.id</string>
+    <string name="website_link">agussyuhada.my.id</string>
     <string name="phone">Phone</string>
-    <string name="phone_number">085761008522</string>
-    <string name="operating_hours">Operating Hours</string>
-    <string name="operating_hours_desc">Jam Operasional\nSenin s/d Sabtu\n08.00 - 20.00</string>
+    <string name="phone_number">6285761008522</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="linkedin_id">agus-syuhada</string>
+    <string name="email">Email</string>
+    <string name="email_address">agussyuhadacreativeproject@gmail.com</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_id">asyuproject</string>
+    <string name="github">GitHub</string>
+    <string name="github_id">agussyuhada</string>
 
     <!--  Messages  -->
     <string name="login_successful">Login successful!</string>
