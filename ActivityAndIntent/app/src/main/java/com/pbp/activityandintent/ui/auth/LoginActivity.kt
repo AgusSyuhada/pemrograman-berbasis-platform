@@ -32,23 +32,23 @@ class LoginActivity : AppCompatActivity() {
 
             when {
                 username.isEmpty() -> {
-                    etUsername.error = "Username cannot be empty"
+                    etUsername.error = getString(R.string.username_empty)
                     etUsername.requestFocus()
                 }
                 password.isEmpty() -> {
-                    etPassword.error = "Password cannot be empty"
+                    etPassword.error = getString(R.string.password_empty)
                     etPassword.requestFocus()
                 }
                 else -> {
                     if (isValidCredentials(username, password)) {
-                        Toast.makeText(this, "Login successful!", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, getString(R.string.login_successful), Toast.LENGTH_SHORT).show()
 
                         val intent = Intent(this, MainActivity::class.java)
                         intent.putExtra("USERNAME", username)
                         startActivity(intent)
                         finish()
                     } else {
-                        Toast.makeText(this, "Invalid username or password", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, getString(R.string.invalid_credentials), Toast.LENGTH_SHORT).show()
                     }
                 }
             }

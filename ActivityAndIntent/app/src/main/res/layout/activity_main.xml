@@ -20,7 +20,7 @@
             android:id="@+id/tvWelcome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:text="@string/hello_world"
             android:textColor="#4B0082"
             android:textSize="32sp"
             android:textStyle="bold"
@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="#7B1FA2"
-            android:text="CONTACT US"
+            android:text="@string/contact_us"
             android:textColor="#FFFFFF"
             android:textStyle="bold"/>
 
